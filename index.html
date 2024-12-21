@@ -1,11 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project_2</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- bootstrap links -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@200;400&family=Pacifico&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fonts links -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- this is icons links -->
+
+    <!-- this is icons links -->
+  </head>
+  <body class="all-content">
+    <!-- navbar start-->
+    <nav class="navbar navbar-expand-lg" id="navbar">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#" id="logo">
+          <img src="./img/la.jpg" width="80" height="80" alt="" />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span>
+            <i
+              class="fa-solid fa-bars"
+              style="color: white; font-size: 23px"
+            ></i>
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#varian">Varian</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallary">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end-->
+
+    <!-- home start -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>Selamat datang di toko Parfum<br />Diana</h3>
+        <p>Nikmati wanginya parfum dari toko parfum kami</p>
+        <button id="btn">Shop Now</button>
+      </div>
+    </section>
+    <!-- home end -->
+
+    <!-- about start -->
+    <section id="about">
+      <div class="container">
+        <div class="heading">About <span>Us</span></div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <img src="./img/about.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <h3>What makes our perfume shop special?</h3>
+            <p>
+              <br />Menawarkan parfum dengan koleksi eksklusif yang tidak
+              tersedia di tempat lain. <br />Bekerja sama dengan pembuat parfum
+              lokal atau desainer untuk menciptakan wewangian khusus.
+              <br />Memberikan layanan kustomisasi aroma, di mana pelanggan
+              dapat menciptakan parfum sesuai dengan preferensi pribadi mereka.
+              <br />Semua parfum terbuat dari bahan berkualitas tinggi dan alami
+              yang tahan lama.
+            </p>
+            <button id="about-btn">Learn More.</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

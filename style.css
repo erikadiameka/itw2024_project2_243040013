@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'merriweather', serif;
+}
+
+.all-content {
+  background: #f2f5f7;
+}
+
+html ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+html ::-webkit-scrollbar-thumb {
+  background: #160d0d;
+  border-radius: 10px;
+}
+
+html ::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* navbar start */
+#navbar {
+  background-color: #FFD7D7;
+}
+
+#logo img {
+  border-radius: 100px;
+  width: 70px;
+  /* margin-left: 50px; */
+}
+
+.navbar-nav {
+  margin-left: 80px;
+}
+
+.nav-item .nav-link {
+  color: black;
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.nav-item .nav-link:hover {
+  color: #fff;
+}
+
+#navbar form button {
+  background: black;
+  color: white;
+  border: 2px solid white;
+}
+
+/* nav end */
+
+/* home sec start */
+#home {
+  width: 100%;
+  height: 80vh;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)) url(./img/lat2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  background-image: url(./img/latar1.jpg);
+}
+
+#home .content {
+  padding: 140px;
+  margin-left: 10px;
+}
+
+#home .content  h3 {
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+#home .content p {
+  margin-top: 10px;
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+}
+
+#btn {
+  width: 150px;
+  height: 36px;
+  background: white;
+  border-radius: 5px;
+  font-weight: bold;
+  border: none;
+  transition: 0.5s ease;
+}
+
+#btn:hover {
+  background: #FFD7D7;
+  color: #f7f5f2;
+}
+
+@media screen and (max-width:982px) {
+  #home .content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width:766px) {
+  #home .content p {
+    font-size: 15px;
+  }
+  #home {
+    height: 125vh;
+  }
+}
+/* home section end */
+
+/* about start */
+#about {
+  width: 100%;
+  height: 100vh;
+  background: #F3BFBE;
+}
+
+#abou .container {
+  padding-top: 50px;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 50px;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.heading span {
+  color: #7E171A;
+}
+
+#about .card {
+  border-radius: 20px;
+}
+
+#about .card img {
+  border-radius: 10px;
+  height: 400px;
+}
+
+#about .col-md-6 {
+  margin-top: 30px;
+  text-align: justify;
+  letter-spacing: 1px;
+}
+
+#about .col-md-6-h3 {
+  margin-bottom: 20px;
+}
+
+#about-btn {
+  width: 150px;
+  height: 36px;
+  background: transparent;
+  border: 2px solid #915858;
+  color: #915858;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#about-btn:hover {
+  background-color: #C49D9D;
+  color: black;
+}
+
+@media screen and (max-width: 982) {
+    #about p {
+        font-size: 8px;
+    }
+
+}
+@media screen and (max-width: 766px) {
+    #about p {
+        font-size: 15px;
+    }
+    #about {
+        height: 150vh;
+    }
+}
+@media screen and (max-width: 500px) {
+    #about {
+        padding: 15px;
+    }
+}
